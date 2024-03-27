@@ -3,22 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link href="./style.css" rel="stylesheet">
   <link href="./output.css" rel="stylesheet">
-  <title>Frontend Mentor | Advice generator app</title>
+  <title>Advice Generator App</title>
 </head>
-<body>
+<body class="bg-dark-blue">
   <div class="container mx-auto flex flex-col justify-center items-center h-screen p-8">
-    <div class="flex flex-col justify-evenly text-white rounded-lg items-center h-80 w-2/4 customized-bg">
-      <p id="idNumber"></p>
-      <h1 id="quoteText" class=""></h1>
-      <!-- <button id="generateNewButton" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Generate New Quote</button> -->
+    <div class="flex flex-col justify-center text-light-cyan rounded-2xl items-center h-80 sm:h-96 w-80 sm:w-96 lg:w-2/4 md:p-8 bg-dark-grayish-blue">
+      <p id="idNumber" class="text-xs font-bold text-neon-green manrope-font"></p>
+      <h1 class="text-xl md:text-2xl text-center manrope-font mx-5 sm:mx-10 my-8">
+        <q class="w-64 h-72 p-4" id="quoteText"></q>
+      </h1>
+      <div class="my-5">
+        <img src="/images/pattern-divider-desktop.svg" alt="pattern divider between quotes and button" class="hidden lg:block">
+        <img src="/images/pattern-divider-mobile.svg" alt="pattern divider between quotes and button" class="lg:hidden mb-5 sm:mb-10">
+      </div>
     </div>
-    <button type="button" id="generateNewButton"  class="rounded-full p-6 customized-button">
+    <button type="button" id="generateNewButton"  class="rounded-full p-6 bg-neon-green hover:shadow-3xl hover:shadow-neon-green customized-button">
       <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg>        <span class="sr-only">Icon description</span>
     </button>
   </div>
-  <script src="index.js"></script>
+  <script src="../index.js"></script>
 </body>
 </html>
 
