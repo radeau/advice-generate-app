@@ -9,8 +9,8 @@ function generateQuote() {
     .then(data => {
     const idNumber = data.slip.id;
     const quote = data.slip.advice;
-    document.getElementById("idNumber").innerHTML = `"ADVICE #${idNumber}"`;
-    document.getElementById("quoteText").innerHTML = `"${quote}"`;
+    document.getElementById("idNumber").innerHTML = `ADVICE #${idNumber}`;
+    document.getElementById("quoteText").innerHTML = `${quote}`;
     })
     .catch(error => {
     console.error("There was a problem fetching the quote:", error);
