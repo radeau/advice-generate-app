@@ -1,0 +1,29 @@
+```
+└── 📁advice-generate-app
+    └── .gitignore
+    └── README.md
+    └── 📁design
+        └── active-states.jpg
+        └── desktop-design.jpg
+        └── desktop-preview.jpg
+        └── mobile-design.jpg
+        └── 📁my_design
+            └── 1440_width.png
+            └── 375_width.png
+    └── 📁images
+        └── favicon-32x32.png
+        └── icon-dice.svg
+        └── pattern-divider-desktop.svg
+        └── pattern-divider-mobile.svg
+    └── index.html
+    └── index.js
+    └── package-lock.json
+    └── package.json
+    └── project-structure.md
+    └── 📁src
+        └── input.css
+        └── output.css
+        └── style.css
+    └── style-guide.md
+    └── tailwind.config.js
+```
