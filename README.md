@@ -23,16 +23,15 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Generate a new piece of advice by clicking the dice icon
 
-### Screenshot
+### Screenshots
 
-![Mobile](design/my_design/375_width.png)
-
-![Desktop](design/my_design/1440_width.png)
+<img src="design/my_design/375_width.png" alt="Mobile" width="200">
+<img src="design/my_design/1440_width.png" alt="Desktop" width="500">
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/radeau/advice-generate-app)
-- Live Site URL: [Live](https://radeau.github.io/advice-generate-app)
+- Github: [](https://github.com/radeau/advice-generate-app)
+- Live Site: [](https://radeau.github.io/advice-generate-app)
 
 ## My process
 My development process for this Advice Generator app involved utilizing Git for version control and hosting the project on GitHub. To build the core functionality and user interface, I leveraged npm for package management. The front-end itself was constructed with a combination of HTML for structure, CSS for styling, and JavaScript for interactivity. To achieve a responsive design that adapts to various screen sizes, I incorporated Tailwind CSS, a utility-first framework. The focus was on meticulously recreating the provided design, ensuring optimal layout across devices. This included implementing hover states for all interactive elements, like the dice button used to generate new advice, to enhance user experience.
