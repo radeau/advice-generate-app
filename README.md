@@ -25,9 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./mobile_view.jpg)
+![Mobile](design/my_design/375_width.png)
 
-![](./desktop_view.jpg)
+![Desktop](design/my_design/1440_width.png)
 
 ### Links
 
@@ -40,8 +40,6 @@ My development process for this Advice Generator app involved utilizing Git for 
 ### Built with
 
 - Git/Github, NPM, TailwindCSS, HTML/CSS/JS
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
